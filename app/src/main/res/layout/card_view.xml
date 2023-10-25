@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="10dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgUrun"
+                android:layout_width="0dp"
+                android:layout_height="700px"
+                android:scaleType="fitXY"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/zumrut_yesil" />
+
+            <TextView
+                android:id="@+id/tvUrunAd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="4dp"
+                android:maxLines="2"
+                android:minLines="2"
+                android:text="TRENDYOL MAN"
+                android:textColor="#686868"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgUrun" />
+
+            <RatingBar
+                android:id="@+id/myRatingBar"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:isIndicator="false"
+                android:numStars="5"
+                android:progressTint="@color/rating_bar"
+                android:rating="4.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvUrunAd" />
+
+            <TextView
+                android:id="@+id/tvYorumSayısı"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="(95)"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/myRatingBar"
+                app:layout_constraintTop_toBottomOf="@+id/tvUrunAd" />
+
+            <TextView
+                android:id="@+id/tvFıyat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:text="419.99 TL"
+                android:textColor="@color/trendyol_turuncu"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/myRatingBar" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                app:fabCustomSize="30dp"
+                app:layout_constraintEnd_toEndOf="@+id/imgUrun"
+                app:layout_constraintTop_toTopOf="@+id/imgUrun"
+                app:maxImageSize="18dp"
+                app:shapeAppearanceOverlay="@style/circularShape"
+                app:srcCompat="@drawable/favorite_icon" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvFıyat">
+
+                <ImageView
+                    android:id="@+id/imgFenomen"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    app:srcCompat="@drawable/fenomen_secimi" />
+
+                <ImageView
+                    android:id="@+id/imgVideo"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    app:srcCompat="@drawable/videolu_urun" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imgKamera"
+                android:layout_width="19dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toEndOf="@+id/tvYorumSayısı"
+                app:layout_constraintTop_toBottomOf="@+id/tvUrunAd"
+                app:srcCompat="@drawable/kamera" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

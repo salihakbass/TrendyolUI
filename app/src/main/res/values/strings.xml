@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TrendyolUI</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="zümrüt_yesili">TRENDYOL MAN Zümrüt Yeşili Unisex Oversize Fermuarlı Dik Yaka Kolları Şeritli Şehir Nakışlı Polar Sweatshirt </string>
+    <string name="ekru_unisex">TRENDYOL MAN Ekru Unisex Regular Fit Çift Cep Kapaklı Etnik Gömlek TMNAW23GO00119 </string>
+    <string name="kahverengi_unisex">TRENDYOL MAN Kahverengi Unisex Oversize Fermuarlı Dik Yaka Kolları Şeritli Şehir Nakışlı Polar Sweatshirt </string>
+    <string name="camel_unisex">TRENDYOL MAN Camel Unisex Oversize Dik Yaka Fermuarlı Renk Bloklu Minimal Nakışlı Kalın Polar/Peluş Sweatshirt </string>
+    <string name="kahverengi_erkek">TRENDYOL MAN Kahverengi Erkek Oversize Kapüşonlu Pamuklu Unisex Sweatshirt TMNAW22SW1462 </string>
+    <string name="siyah_unisex">TRENDYOL MAN Siyah Unisex Oversize Fit Kapüşonlu Sweatshirt TMNAW22SW1462</string>
+    <string name="vizon_unisex">TRENDYOL MAN Vizon Unisex Oversize Geniş Kesim Bisiklet Yaka Çizgili İçi Polarlı Pamuklu Kalın Sweatshirt </string>
+    <string name="limited_edition">TRENDYOL MAN Limited Edition Antrasit Relaxed/Rahat Kesim Eskitme Soluk Efektli %100Pamuk Yazı Nakışlı Sweatshirt </string>
+
+</resources>
